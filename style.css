@@ -1,0 +1,891 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+html {
+  background-color: #ccc;
+  font-family: "DM Sans", serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  background-color: #033f63;
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+}
+
+.logo {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+nav a {
+    background-color: #fedc97;
+    color: #7c9885;
+    font-size: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 1% 4%;
+    display: inline-block;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    color: #28666e;
+}
+
+nav {
+    background-color: #fedc97;
+}
+
+a {
+    text-decoration: none;
+    color: #63affa;
+}
+
+.Departamento a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #052436;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+}
+
+.Departamento a:hover {
+    background-color: #fedc97;
+    color: #033f63;
+}
+
+.Acultura a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #052436;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+}
+
+.Acultura a:hover {
+    background-color: #fedc97;
+    color: #033f63;
+}
+
+h1 {
+    font-size: 300%;
+    font-family: "DM Serif Display", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: auto;
+}
+
+li {
+    list-style: none;
+}
+  
+h4 {
+    font-size: 150%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.contenedor1 {
+    background-image: url(SanMarcos2.jpg);/*Soliman Cifuentes*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color:#fff;   
+    text-align: center;
+    padding: 25px;
+    color:#fff;
+}
+
+.contenedor1 h2 {
+    font-size: 80px;
+    margin-bottom: 35px;
+    color:#033f63;
+}
+
+.contenedor1 h4 {
+    margin-bottom: 35px;
+    text-align: left;
+    padding: 50px;
+}
+
+.right {
+    float: right;
+    margin: 0%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+.right2 {
+    width: 500px;
+    height: 315px;
+    padding-right: 0;
+    padding-bottom: 0;
+    float: right;
+}
+
+p {
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 50%;
+}
+
+h2,
+h3 {
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 50%;
+}
+
+ul a:visited {
+    color: #28666e;
+}
+
+ul {
+    padding-left: 5%;
+}
+
+.Departamento {
+    column-count: 3;
+}
+
+a:hover {
+    color: #fedc97;
+}
+
+/*Página de Cultura*/
+.Tcultura {
+    background-color: #fedc97;
+    padding: 2%;
+    margin: 2%;
+}
+
+.LinkC {
+    color:#052436;
+}
+
+.Culturapg {
+    background-color: #033f63;
+    color: #033f63;
+}
+
+.Cultura {
+    width: 350px;
+    height: 250px;
+}
+
+.rightVD {
+    float: right;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-box {
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.slider-box img {
+    width: 100%;
+}
+
+.titleC {
+    text-decoration: none;
+    color:#fedc97;
+}
+
+@keyframes slide {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}
+
+.iframC {
+    margin: auto;
+    padding: 25px;
+}
+/*Página de Historia*/
+.HistoriaEC {
+    background: url(HistoriaEC2.jpg) no-repeat center;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+}
+
+.HistoriaA {
+    background: url(HistoriaA1.jpg) no-repeat center;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+}
+
+.HistoriaDN {
+    background: url(HistoriaDN3.jpg) no-repeat center;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+}
+
+.HTitle {
+    width: 55%;
+    float: center;
+    background-color: #fedc97;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.HTitle1 {
+    width: 55%;
+    float: center;
+    background-color: #7c9885;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.HTitle2 {
+    width: 55%;
+    float: center;
+    background-color: #28666e;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.HTitle h2 {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.HTitle1 h2 {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #e7f3f5;
+}
+
+.HTitle2 h2 {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #e7f3f5;
+}
+
+.Htext {
+    padding: 0;
+    font-size: 17px;
+    color: #272727;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.HTitle1 .Htext {
+    color: #e7f3f5;
+}
+
+.HTitle2 .Htext {
+    color: #e7f3f5;
+}
+
+/*Página de Atractivos Turisticos*/
+.AT {
+    background-color: #033f63;
+}
+
+.contenedor {
+    background-image: url(Volcan2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color:#fff;   
+    text-align: center;
+    padding: 25px;
+    color:#fff;
+}
+
+.contenedor h2 {
+    font-size: 80px;
+    margin-bottom: 35px;
+}
+
+.contenedor h4 {
+    margin-bottom: 35px;
+    text-align: left;
+    padding: 50px;
+}
+
+.Lcontenedor {
+    background-color: #033f63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.Lugares-box {
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.Lugares-ifr {
+    width: 100%;
+    height: auto;
+}
+
+.Lugares-ifr iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Lugares-texto {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Lugares-texto span {
+    color: #033f63;
+    font-size: 0.9rem;
+}
+
+.Lugares-texto a {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+    text-decoration: none;
+}
+
+.Lugares-texto a:hover {
+    color: #033f63;
+    transition: all ease 0.3s;
+}
+
+.Lugares-box p {
+    color:#2b2b2b;
+    font-size: 0.9rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.Lugares-box .DatosAT {
+    color: #2b2b2b;
+}
+
+.Lugares-box .DatosAT:hover {
+    color: #033f63;
+    transition: all ease 0.3s;
+}
+
+.Econtenedor {
+    background-color: #ececec;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Lugares-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Lugares-img {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.Lugares-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.Lugares-img:hover img {
+    transform: scale(1.2);
+}
+
+.Lugares-text {
+    flex: 1;
+}
+
+.Lugares-text h3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    color:#033f63;
+    padding: 0;
+}
+
+.Lugares-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #033f63;
+    padding-left: 5px;
+    padding-right: 100px;
+}
+
+.Lugares-text .read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #052436;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+.Lugares-text .read-more:hover {
+    background-color: #033f63;
+}
+/*Pagina Datos Extras*/
+.contenedor2 {
+    background-image: url(DT1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color:#fff;   
+    text-align: center;
+    padding: 25px;
+    color:#fff;
+}
+
+.contenedor2 h2 {
+    font-size: 80px;
+    margin-bottom: 35px;
+    color:#fff;
+}
+
+.contenedor2 h4 {
+    margin-bottom: 35px;
+    text-align: left;
+    padding: 50px;
+}
+
+.EDatos {
+    background: url(DT2.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.EDTitle {
+    width: 55%;
+    float: right;
+    background-color: #e7f3f5;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.EDTitle h2 {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.EDtext {
+    padding: 0;
+    font-size: 13px;
+    color: #272727;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.EDatosL {
+    background: url(DTDM.jpg) no-repeat right;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.EDTitleL {
+    width: 55%;
+    float: left;
+    background-color: #e7f3f5;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.EDTitleL h2 {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/*Página Links*/
+
+.contenedorLinks {
+    background-image: url(Volcan2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color:#fff;   
+    text-align: center;
+    padding: 25px;
+    color:#fff;
+}
+
+.contenedorLinks h2 {
+    padding: 0;
+    font-size: 80px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.contenedorLinks h4 {
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 50px;
+}
+
+.team-Links {
+    display: grid;
+    justify-content: center;
+}
+
+.box-Links {
+    display: inline-flex;
+}
+
+.LinksText {
+    width: 33.3%;
+    text-align: center;
+    margin: 20px;
+    padding: 30px 10px;
+    background: #ececec;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+
+.LinksText .imgL {
+    width: 80px;
+    border-radius: 100%;
+    padding: 5px;
+    margin-bottom: -10px;
+    border: 2px solid #dee2e6;
+    backface-visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.LinksText:hover img {
+    transform: scale(1.2);
+}
+
+.LinksText h2 {
+   font-size: 20px;
+   line-height: 1.6;
+   margin-bottom: 0; 
+   padding: 0;
+   text-align: center;
+}
+
+.LinksText p {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.LinksText ul {
+    padding: 0;
+}
+
+.LinksText ul li {
+    display: inline-block;
+}
+
+.LinksText .ImgI {
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    margin: 5px;
+}
+
+/*Pagina de Independencia*/
+
+.Independencia {
+    background-image: url(Independencia.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color:#fff;   
+    text-align: center;
+    padding: 25px;
+    color:#fff;
+}
+
+.Independencia h2 {
+    color: #fedc97;
+    text-shadow: 10px 5px #272727;
+    padding: 0;
+    font-size: 80px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.Independencia h4 {
+    color: #fffcfc;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 50px;
+}
+
+.Independencia1 {
+    background: url(Independencia1.jpg) no-repeat left;
+    background-size: 60%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+}
+
+.Independencia2 {
+    background: url(Independencia2.jpg) no-repeat right;
+    background-size: 60%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+}
+
+.Independencia3 {
+    background: url(Independencia3.jpg) no-repeat left;
+    background-size: 60%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+}
+
+.ITitle {
+    width: 50%;
+    float: right;
+    background-color: #fedc97;
+    padding: 50px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ITitle1 {
+    width: 50%;
+    float: left;
+    background-color: #7c9885;
+    padding: 50px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ITitle2 {
+    width: 50%;
+    float: right;
+    background-color: #28666e;
+    padding: 50px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ITitle h2 {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.ITitle1 h2 {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #e7f3f5;
+}
+
+.ITitle2 h2 {
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #e7f3f5;
+}
+
+.ITitle1 .Htext {
+    color: #e7f3f5;
+}
+
+.ITitle2 .Htext {
+    color: #e7f3f5;
+}
+
+.footer {
+    float: right;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .slider-box {
+        width: 100%;
+    }
+
+    .Departamento, .Acultura {
+        column-count: 2;
+    }
+
+    .Lugares-sec {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Lugares-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .right, .right2 {
+        float: none;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .HTitle, .HTitle1, .HTitle2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .Lugares-box {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav a {
+        margin: 1% 2%;
+        font-size: 90%;
+    }
+
+    .contenedor1 h2, .contenedor2 h2, .contenedorLinks h2 {
+        font-size: 50px;
+    }
+
+    .Lugares-texto {
+        padding: 20px;
+    }
+
+    h4 {
+        font-size: 120%;
+    }
+
+    .EDTitle, .EDTitleL, .ITitle, .ITitle1, .ITitle2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .Lugares-texto a {
+        font-size: 1rem;
+    }
+
+    .Lugares-text p {
+        font-size: 16px;
+        padding-right: 5px;
+    }
+
+    .slider-box ul {
+        flex-direction: column;
+    }
+
+    .Lugares-sec {
+        flex-direction: column;
+    }
+
+    .EDtext, .Htext {
+        font-size: 14px;
+    }
+}
